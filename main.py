@@ -62,7 +62,7 @@ def draw_object_bounding_box(image_to_process, index, box):
     x, y, w, h = box
     start = (x, y)
     end = (x + w, y + h)
-    color = (0, 255, 0)
+    color = (255, 0, 0)
     width = 2
     final_image = cv2.rectangle(image_to_process, start, end, color, width)
 
